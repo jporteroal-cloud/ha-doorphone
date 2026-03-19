@@ -1,0 +1,11 @@
+{
+  "name": "Doorphone SIP Gateway",
+  "version": "1.0",
+  "slug": "doorphone_sip_gateway",
+  "description": "UDP to SIP bridge for ESP32",
+  "startup": "services",
+  "boot": "auto",
+  "host_network": true,
+  "options": {},
+  "schema": {}
+}

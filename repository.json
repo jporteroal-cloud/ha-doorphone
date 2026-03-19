@@ -1,0 +1,6 @@
+{
+  "name": "Local Doorphone Addons",
+  "addons": [
+    "doorphone_sip_gateway"
+  ]
+}

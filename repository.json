@@ -1,5 +1,7 @@
 {
   "name": "Local Doorphone Addons",
+  "url": "https://github.com/jporteroal-cloud/ha-doorphone",
+  "maintainer": "jporteroal",
   "addons": [
     "doorphone_sip_gateway"
   ]

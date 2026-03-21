@@ -2,10 +2,18 @@
   "name": "Doorphone SIP Gateway",
   "version": "1.0",
   "slug": "doorphone_sip_gateway",
-  "description": "UDP to SIP bridge for ESP32",
+  "description": "SIP gateway for doorphone",
+  "arch": ["amd64", "armv7", "aarch64"],
   "startup": "services",
-  "boot": "auto",
-  "host_network": true,
-  "options": {},
-  "schema": {}
+  "boot": "auto"
+  "options": {
+  "sip_user": "jpa",
+  "sip_password": "1954",
+  "sip_server": "192.168.1.104"
+},
+"schema": {
+  "sip_user": "str",
+  "sip_password": "str",
+  "sip_server": "str"
+} 
 }
